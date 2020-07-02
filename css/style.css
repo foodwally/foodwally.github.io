@@ -1245,13 +1245,13 @@ h8
 {
 
 position: absolute;
-top: 50%;
-left: 12%;
+top: 70%;
+left: 10%;
 transform: translate(-50%,-50%);
 margin: 0;
 padding: 0 20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 2em;
+font-size: 1.5em;
 text-shadow: 0 5px 15px rgba(red, green, blue, alpha);
 text-transform: uppercase;
 border: 10px solid #000;
@@ -1270,7 +1270,7 @@ h8 span
 
 }
 
-h8 span:nth-child(4)
+h8 span:nth-child(3)
 {
 color: rgb(207, 139, 11);
 
@@ -1289,7 +1289,7 @@ color: rgb(207, 139, 11);
 
 }
 
-h8 span:nth-child(6)
+h8 span:nth-child(7)
 {
 color: rgb(207, 139, 11);
 
@@ -1298,7 +1298,14 @@ color: rgb(207, 139, 11);
 
 }
 
+h8 span:nth-child(8)
+{
+color: rgb(207, 139, 11);
 
+    
+    animation: animate 3s alternate infinite;
+
+}
 
 
 @keyframes animate
